@@ -111,18 +111,12 @@ The MRL Eye Dataset is publicly available for download [here](http://mrl.cs.vsb.
 Datasets were split in 80% and 
 
 ## Output
+## Eye Images
 
-<div style="display: flex; justify-content: space-between;">
+| Open Eye Image 1           |               Open Eye Image 2 |
+|------------------|------------------|
+| ![Open Eye 1](images/closed_eye_output.png)          |         ![Open Eye 2](images/open_eye_output.png) |
 
-  <div style="flex: 0 0 48%; padding: 5px;">
-    ![Closed Eye Output](images/closed_eye_output.png)
-  </div>
-
-  <div style="flex: 0 0 48%; padding: 5px;">
-    ![Open Eye Output](images/open_eye_output.png)
-  </div>
-
-</div>
 *Figure: Output for open eye and closed eye*
 
 ## Results and Conclusion
