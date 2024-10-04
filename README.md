@@ -16,7 +16,7 @@ CNNs are deep learning models designed for visual data analysis, making them par
 
 By evaluating the performance of CNN and SVM in driver drowsiness detection, this project aims to identify the strengths and limitations of each approach, ultimately providing insights into the most effective methods for real-time monitoring and alerting systems. The findings may contribute to developing more reliable driver assistance systems, enhancing road safety for all.
 
-![Drowsy Driver](Drowsiness-Detection/images/drowsy.jpg)
+![Drowsy Driver](images/drowsy.jpg)
 *Figure 1: Drowsy Driver - An example image illustrating the characteristics of driver drowsiness.*
 *Copyright © 2024 Nauto. All rights reserved.*
 
