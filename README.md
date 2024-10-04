@@ -24,11 +24,11 @@ By evaluating the performance of CNN and SVM in driver drowsiness detection, thi
 To develop a real-time driver drowsiness detection system using Convolutional Neural Networks (CNN) and Support Vector Machines (SVM), comparing their effectiveness in accurately identifying drowsy states. The goal is to enhance driver safety by providing alerts and to create a cost-effective solution for automotive integration.
 
 ## System Design
-![System_desigm](images\system_design.jpg)
+![System_desigm](images/system_design.jpg)
 *Figure 2: Overall System Design*
 
 ## Methodology
-![Methodology](images\methodology.jpg)
+![Methodology](images/methodology.jpg)
 *Figure 3: System Methodology/Flowchart*
 
 ## Architecture
@@ -143,14 +143,14 @@ The results indicate that the CNN model excelled in training, achieving a high a
 In contrast, the Support Vector Machine (SVM) algorithm achieved a remarkable accuracy of **97%** on the same limited dataset. This demonstrates that the SVM outperformed the CNN in terms of overall accuracy, particularly in scenarios where the dataset was smaller and more manageable. 
 
 ### Metrices
-![dataset](Drowsiness-Detection/images/evaluation_result.jpg)
+![dataset](images/evaluation_result.jpg)
 *Figure: Evaluation metrics of accuracy*
 
 
-![training_val_accuracy](Drowsiness-Detection/images/training and validation accuracy graph.jpg)
+![training_val_accuracy](images/training and validation accuracy graph.jpg)
 *Figure: Training and Validation accuracy*
 
-![training_val_loss](Drowsiness-Detection\images\training and validation loss graph.jpg)
+![training_val_loss](images/training and validation loss graph.jpg)
 *Figure: Training and Validation loss*
 
 
