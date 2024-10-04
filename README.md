@@ -24,17 +24,18 @@ By evaluating the performance of CNN and SVM in driver drowsiness detection, thi
 To develop a real-time driver drowsiness detection system using Convolutional Neural Networks (CNN) and Support Vector Machines (SVM), comparing their effectiveness in accurately identifying drowsy states. The goal is to enhance driver safety by providing alerts and to create a cost-effective solution for automotive integration.
 
 ## System Design
-![System_desigm](Drowsiness-Detection\images\system_design.jpg)
-fig: Overall System Design
+![System_desigm](images\system_design.jpg)
+*Figure 2: Overall System Design*
 
 ## Methodology
-![Methodology](Drowsiness-Detection\images\methodology.jpg)
-fig: System Methodology/Flowchart
+![Methodology](images\methodology.jpg)
+*Figure 3: System Methodology/Flowchart*
 
 ## Architecture
 ### Convolutional Neural Network(CNN)
-![CNN](Drowsiness-Detection/images/cnndiagram.png)
-Source: Appropedia 
+![CNN](images/cnndiagram.png)
+*Figure 4: CNN Architecture*
+*Source: Appropedia *
 
 For the Drowsiness Detection project, we employed a Convolutional Neural Network (CNN) architecture utilizing the pre-trained InceptionV3 model as a backbone. The InceptionV3 model is known for its depth and ability to extract rich feature representations from images.
 
@@ -56,8 +57,9 @@ The model was compiled using the Adam optimizer and categorical cross-entropy lo
 This architecture leverages transfer learning, allowing for efficient training with limited data while benefiting from the extensive knowledge captured in the pre-trained model.
 
 ### Support vector machine(SVM)
-![SVM](Drowsiness-Detection/images/svm_diagram.jpg)
-Source: eelabs
+![SVM](images/svm_diagram.jpg)
+*Figure 5: SVM Architecture*
+*Source: eelabs*
 
 The Support Vector Machine (SVM) is a powerful supervised machine learning algorithm commonly used for classification tasks. In this project, we employed SVM for detecting driver drowsiness by analyzing the features extracted from the images of drivers' faces.
 
@@ -142,12 +144,14 @@ In contrast, the Support Vector Machine (SVM) algorithm achieved a remarkable ac
 
 ### Metrices
 ![dataset](Drowsiness-Detection/images/evaluation_result.jpg)
-fig: accuracy evaluation
+*Figure: Evaluation metrics of accuracy*
+
 
 ![training_val_accuracy](Drowsiness-Detection/images/training and validation accuracy graph.jpg)
-fig: Training and Validation accuracy
+*Figure: Training and Validation accuracy*
 
 ![training_val_loss](Drowsiness-Detection\images\training and validation loss graph.jpg)
+*Figure: Training and Validation loss*
 
 
 ## Publications
