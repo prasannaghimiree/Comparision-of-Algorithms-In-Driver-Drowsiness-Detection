@@ -107,8 +107,7 @@ The dataset includes annotations for approximately **15,000 pupil points** acros
 
 #### Availability:
 The MRL Eye Dataset is publicly available for download [here](http://mrl.cs.vsb.cz/eyedataset). The annotations for the pupil points can be downloaded [here](http://mrl.cs.vsb.cz/data/eyedataset/pupil.txt). For further details about the dataset, refer to the paper titled "Pupil localization using geodesic distance." For any questions regarding the dataset, please contact **Radovan Fusek**.
-### Dataset split
-Datasets were split in 80% and 
+
 
 ## Output
 ## Eye Images
