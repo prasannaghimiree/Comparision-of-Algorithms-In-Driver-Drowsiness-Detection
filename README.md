@@ -114,7 +114,7 @@ The MRL Eye Dataset is publicly available for download [here](http://mrl.cs.vsb.
 
 | Open Eye Image 1           |               Open Eye Image 2 |
 |------------------|------------------|
-| ![Open Eye 1](images/closed_eye_output.png)          |         ![Open Eye 2](images/open_eye_output.png) |
+| ![closed Eye ](images/closed_eye_output.png)          |         ![Open Eye ](images/open_eye_output.png) |
 
 *Figure: Output for open eye and closed eye*
 
