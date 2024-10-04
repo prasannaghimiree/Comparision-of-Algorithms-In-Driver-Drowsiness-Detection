@@ -76,25 +76,12 @@ For this project, we utilized the MRL Eye Dataset, a comprehensive collection of
 
 Below are sample images from the MRL Eye Dataset:
 
-<div style="display: flex; flex-wrap: wrap; justify-content: space-between;">
+| Open Eye Image 1 | Open Eye Image 2 |
+|-------------------|-------------------|
+| ![Open Eye Image 1](images/open_eye1.png) | ![Open Eye Image 2](images/open_eye2.png) |
+| Closed Eye Image 1 | Closed Eye Image 2 |
+| ![Closed Eye Image 1](images/closed_eye1.png) | ![Closed Eye Image 2](images/closed_eye2.png) |
 
-  <div style="flex: 0 0 48%; padding: 5px;">
-    <img src="Drowsiness-Detection/images/open_eye1.png" alt="Image 1" style="width: 100%; height: auto;">
-  </div>
-
-  <div style="flex: 0 0 48%; padding: 5px;">
-    <img src="Drowsiness-Detection/images/open_eye2.png" alt="Image 2" style="width: 100%; height: auto;">
-  </div>
-
-  <div style="flex: 0 0 48%; padding: 5px;">
-    <img src="Drowsiness-Detection/images/closed_eye1.png" alt="Image 3" style="width: 100%; height: auto;">
-  </div>
-
-  <div style="flex: 0 0 48%; padding: 5px;">
-    <img src="Drowsiness-Detection/images/closed_eye2.png" alt="Image 4" style="width: 100%; height: auto;">
-  </div>
-
-</div>
 
 #### Dataset Details:
 - **Content:**
@@ -124,17 +111,19 @@ The MRL Eye Dataset is publicly available for download [here](http://mrl.cs.vsb.
 Datasets were split in 80% and 
 
 ## Output
+
 <div style="display: flex; justify-content: space-between;">
 
   <div style="flex: 0 0 48%; padding: 5px;">
-    <img src="Drowsiness-Detection/images/closed_eye_output.png" alt="Image 1" style="width: 100%; height: auto;">
+    ![Closed Eye Output](images/closed_eye_output.png)
   </div>
 
   <div style="flex: 0 0 48%; padding: 5px;">
-    <img src="Drowsiness-Detection/images/open_eye_output.png" alt="Image 2" style="width: 100%; height: auto;">
+    ![Open Eye Output](images/open_eye_output.png)
   </div>
 
 </div>
+*Figure: Output for open eye and closed eye*
 
 ## Results and Conclusion
 
@@ -147,10 +136,10 @@ In contrast, the Support Vector Machine (SVM) algorithm achieved a remarkable ac
 *Figure: Evaluation metrics of accuracy*
 
 
-![training_val_accuracy](images/training and validation accuracy graph.jpg)
+![training_val_accuracy](images/trainingandvalidationaccuracygraph.jpg)
 *Figure: Training and Validation accuracy*
 
-![training_val_loss](images/training and validation loss graph.jpg)
+![training_val_loss](images/trainingandvalidationlossgraph.jpg)
 *Figure: Training and Validation loss*
 
 
